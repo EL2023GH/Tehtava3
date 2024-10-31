@@ -1,0 +1,174 @@
+body {
+    font-family: fantasy, serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #bae67c;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #a1b7cd;
+}
+
+a.back-link {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #dd2d2d;
+    font-weight: bold;
+}
+
+a.back-link:hover {
+    color: #f0a500;
+}
+
+
+img {
+    border: 4px solid #1e1c1c;   
+    border-radius: 9px;      
+    padding: 5px;            /* Tyhjää tilaa reunuksen ja kuvan väliin */
+   
+    margin: 20px auto;        
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+ 
+   .navbar {
+    height: 100vh; /* Koko näytön korkeus */
+    width: 200px; /* Kiinteä leveys */
+    position: fixed; /* Kiinnitä vasempaan reunaan */
+  }
+  
+  .navbar-nav {
+    flex-direction: row; /* Järjestää linkit vertikaalisesti */
+  }
+   
+
+
+  body {
+    background-color: #f8f9fa;
+}
+.custom-navbar {
+    background-color: #4A90E2; /* Override theme color */
+}
+.custom-navbar .nav-link {
+    color: #fff;
+}
+.custom-navbar .nav-link:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+.img-fluid {
+    max-width: 150px; /* Set max-width for images */
+}
+.container {
+    padding: 40px 15px; /* Add padding to the container */
+}
+
+
+ul.list-group li {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  
+  /* Tyylit mobiililaitteille */
+  @media (max-width: 600px) {
+    body {
+      background-color: rgb(232, 239, 242);
+    }
+    body {
+      font-size: 14px;
+    }
+    
+    h1 {
+          font-size: 2rem;
+      }
+    h2 {
+        font-size: 1rem;
+      }  
+    .container {
+          padding: 10px;
+      }
+    
+  }
+  
+  /* Tyylit suuremmille näytöille (esim. tietokoneet) */
+  @media (min-width: 601px) {
+    body {
+      background-color: rgb(169, 203, 213);
+    }
+    body {
+      font-size: 18px;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    .container {
+      padding: 20px;
+    }
+  
+  }
+  
+  navbar {
+    height: 100vh; /* Koko näytön korkeus */
+    width: 200px; /* Kiinteä leveys */
+    position: fixed; /* Kiinnitä vasempaan reunaan */
+  }
+  
+  navbar-nav {
+    flex-direction: row; /* Järjestää linkit vertikaalisesti */
+  }
+  
+  content {
+    margin-left: 220px; /* Lisää tilaa sivun sisällölle, ettei mene navigointipalkin päälle */
+    padding: 20px;
+  }
+
+
+
+  .custom-button {
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
